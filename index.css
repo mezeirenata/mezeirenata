@@ -1,88 +1,95 @@
-p{font-family: Arial, Helvetica, sans-serif;}
+
+p
+{font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 3px;
+}
 .container {
-    position: relative;
+    position:relative;
     text-align: center ;
     color:white
-    
+    }
 
-
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
-}
 .border{
     color: white;
-    background-color:rgb(21, 20, 22);
-    border-top-color:red;
-    border-top-width: 5px;
-    border-top-style: dashed;
-
-    border: 5px solid rgb(100, 81, 81);
-    border-bottom: 5px solid rgb(94, 75, 75);
-
-    text-align: justify ;
-
-    padding-left: 30px;
-    padding-bottom: 60px;
-
-    padding: 10px 20px 30px 40px;
-    padding:20px 40px ;
-    padding: 10px 20px 40px;
-    
-    margin:50px;
-    margin: 10px 20px 40px 70px;
-    
-
-
+    border: 15px solid rgb(41, 35, 208);
+    padding:20px;
+    text-align: justify;
+    border-radius:1vh;
+    width:fit-content;
+    align-self:center;
+    transition: ease-in-out 0.3s;
+    }
+.border:hover{
+    box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px white;
+    transition: ease-in-out 0.3s;
 }
 
 .headerborder {color: white;
-    background-color:rgb(21, 20, 22);
-    border-top-color:red;
-    border-top-width: 5px;
-    border-top-style: dashed;
-
-    border: 5px solid rgb(145, 118, 118);
-    border-bottom: 5px solid rgb(139, 119, 119);
-
-    text-align: justify ;
-
-    padding-left: 30px;
-    padding-bottom: 60px;
-
-    padding: 10px 20px 30px 40px;
-    padding:20px 40px ;
-    padding: 10px 20px 40px;
-    
-    margin:50px;
-    margin: 10px 20px 40px 70px;
-
-
-
-}
+    border: 15px solid rgb(41, 35, 208);
+    transition: ease-in-out 0.3s;
+    border-radius:1vh;
+    width:90%;
+    text-align:center;
+    }
+.headerborder:hover {
+    box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px white; 
+    transition: ease-in-out 0.3s;
+    }
 p {
 font-size:30px;
+transition: ease-in-out 0.3s;
 
-
-}
+    }
 h3,a{
 font-size:30px;
 text-align:center;
 
-}
+    }
 body{
 font-family:Arial, Helvetica, sans-serif;
-text-shadow:  black;
 
 
-}
-h1{
-    font-size:75px;
-    color:white;
-    text-align:center;
+    }   
+#macskatext{
+    background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  font-weight: bold;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 83%;
+  padding: 40px;
+  text-align: center;
+    
+    
 
-}
+    }
+a{
+    color: rgb(255, 255, 255);
+            background-color:rgb(41, 35, 208);
+    text-decoration:none;
+    border: 5px solid rgb(41, 35, 208);
+    text-align: justify ;        
+    border-radius:5vh;
+
+    transition: ease-in-out 0.3s;
+    }
+a:hover{
+    box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px rgb(255, 255, 255);
+    transition: ease-in-out 0.3s;
+    }
+h2{
+   color:white;
+   
+    }
+.balszegély{
+width:100%;
+margin:0px;
+transform:rotate(270deg);
+left:0px;
+
+}   
 
