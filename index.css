@@ -3,7 +3,7 @@ p{font-family: Arial, Helvetica, sans-serif;}
     position: relative;
     text-align: center ;
     color:white
-    text-shadow: black 8px;
+    
 
 
 }
@@ -34,12 +34,13 @@ p{font-family: Arial, Helvetica, sans-serif;}
     
     margin:50px;
     margin: 10px 20px 40px 70px;
+    
 
 
 }
 
 .headerborder {color: white;
-    background-color:rgb(41, 37, 49);
+    background-color:rgb(21, 20, 22);
     border-top-color:red;
     border-top-width: 5px;
     border-top-style: dashed;
@@ -76,6 +77,12 @@ body{
 font-family:Arial, Helvetica, sans-serif;
 text-shadow:  black;
 
+
+}
+h1{
+    font-size:75px;
+    color:white;
+    text-align:center;
 
 }
 
