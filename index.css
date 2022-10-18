@@ -75,6 +75,7 @@ a{
     border: 5px solid rgb(41, 35, 208);
     text-align: justify ;        
     border-radius:5vh;
+    padding:5px;
 
     transition: ease-in-out 0.3s;
     }
