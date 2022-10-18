@@ -47,6 +47,7 @@ text-align:center;
     }
 body{
 font-family:Arial, Helvetica, sans-serif;
+margin:0px;
 
 
     }   
@@ -84,12 +85,13 @@ a:hover{
 h2{
    color:white;
    
-    }
-.balszegély{
-width:100%;
-margin:0px;
-transform:rotate(270deg);
-left:0px;
+    }   
+.alsószegély {
+    width:100%;
+    margin: 0px;
+    height:300px;
+}
 
-}   
 
+    
+ 
