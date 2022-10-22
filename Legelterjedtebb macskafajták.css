@@ -69,3 +69,11 @@ transition: ease-in-out 0.3s;}
     font-size:33px;
     transition: ease-in-out 0.3s;
     }
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    
+    transition:ease-in-out 0.3s;
+}
