@@ -30,12 +30,17 @@ h2{
      color:white;
      font-size:65px;
 }
+h2:hover{
+    font-size:70px;
+    transition:ease-in-out 0.3s;
+}
 
 tr,td,th,table{
     color: white;
     border: 15px solid rgb(41, 35, 208);
     padding:20px;
     text-align: justify;
+    
 
     width:30%;
     align-self:center;
@@ -46,6 +51,7 @@ table:hover{
     box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px white;
     transition: ease-in-out 0.3s;
     border-radius:5vh;
+    
     
 }
 
