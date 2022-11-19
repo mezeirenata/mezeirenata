@@ -1,24 +1,32 @@
+body{
+font-family:Arial, Helvetica, sans-serif;
+margin:0px;
+background-color:rgb(16, 17, 19, 0.987) ;
+    }   
+p
+    {font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-size:30px;
+    transition: ease-in-out 0.3s;
+    cursor:default;
+    }
+
+h1{
+    position:relative;
+    text-align:center;
+    color:white;
+    font-size:80px;
+    padding-top:10px;
+    margin-bottom: 5px;
+    cursor:default;
+}
 
 h2{
     color:white;
     font-size:50px;
+    cursor:default;
     
      }   
- h2:hover{
-     font-size:54px;
-     transition:ease-in-out 0.3s;
- }
-p
-{font-family: Arial, Helvetica, sans-serif;
-letter-spacing: 3px;
-font-size:30px;
-transition: ease-in-out 0.3s;
-}
-.container {
-    position:relative;
-    text-align: center ;
-    color:white
-    }
 
 .border{
     color: white;
@@ -29,73 +37,46 @@ transition: ease-in-out 0.3s;
     width:fit-content;
     align-self:center;
     transition: ease-in-out 0.3s;
+    width:40%;
+    letter-spacing:3px;
+    border-radius:1vh;
     }
 .border:hover{
     box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px white;
     transition: ease-in-out 0.3s;
-}
-
-.headerborder {color: white;
-    border: 15px solid rgb(41, 35, 208);
-    transition: ease-in-out 0.3s;
-    border-radius:1vh;
-    width:90%;
-    text-align:center;
     }
-.headerborder:hover {
-    box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px white; 
-    transition: ease-in-out 0.3s;
-    }
-h3{
+    h3{
 font-size:30px;
-text-align:center;
-
-    }
-body{
-font-family:Arial, Helvetica, sans-serif;
-margin:0px;
-
-
-    }   
-#macskatext{
-    background-color: rgba(0, 0, 0, 0.616);
-  color: white;
-  font-weight: bold;
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 83%;
-  padding: 40px;
-  text-align: center;
-    
-    
-
-    }
-a{
-    color: rgb(255, 255, 255);
-            background-color:rgb(41, 35, 208);
-    text-decoration:none;
-    border: 5px solid rgb(41, 35, 208);
-    text-align: justify ;        
-    border-radius:5vh;
-    padding:5px;
-    font-size:30px;
-    transition: ease-in-out 0.3s;
-    }
-a:hover{
-    box-shadow: 0px 0px 10px 0px white, 0px 0px 20px 0px rgb(255, 255, 255);
-    transition: ease-in-out 0.3s;
-    font-size:33px;
-    }
-.alsószegély {
+text-align:center;   }
+.alsoszegely {
     width:100%;
     margin: 0px;
     height:300px;
 }
+.felsoszegely{
+    width:100%;
+    margin:0px;
+    margin-top:-7px;
+    height:75px;
+}
+#topnav{
+background-color:rgba(0, 0, 0, 0.534);
+overflow:hidden;
+margin-bottom:-7px;
 
-
-    
- 
+}
+#topnav a{
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size:30px;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align:justify;
+}
+#topnav a:hover{
+    background-color:rgb(41, 35, 208);
+}    
+.gallery{
+    border: 1px solid black;
+}
