@@ -101,6 +101,7 @@ margin-bottom:-7px;
     text-align: center;
     font-size:25px;
     transition:ease-in-out 0.3s;
+    cursor:default;
 }
 
 .gallery img {
