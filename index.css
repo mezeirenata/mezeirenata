@@ -23,7 +23,7 @@ h1{
     transition: 0.5s;
     
 }
-h1:hover,h2:hover,h3:hover,h4:hover{
+h2:hover,h3:hover,h4:hover{
     text-decoration:underline rgb(41, 35, 208);
     transition: 0.5s;
    

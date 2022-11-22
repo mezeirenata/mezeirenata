@@ -132,6 +132,7 @@ ul{
     float:left;
     color:white;
     margin-top:-25px;
+    cursor:default;
     
 }
 li{
@@ -145,7 +146,7 @@ li{
     
 
 }
-h1:hover,h2:hover,h3:hover,h4:hover{
+h2:hover,h3:hover,h4:hover{
     text-decoration:underline rgb(41, 35, 208);
     transition: 0.5s;
    

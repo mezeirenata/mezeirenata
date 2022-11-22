@@ -83,6 +83,7 @@ margin-bottom:-7px;
     margin-bottom:100px;
     margin-left:70px;
     margin-right:70px;
+    cursor:default;
 }
 footer{
     position: fixed; 
@@ -91,7 +92,7 @@ footer{
     right: 0;
     margin-bottom:-10px;
 }
-h1:hover,h2:hover,h3:hover,h4:hover{
+h2:hover,h3:hover,h4:hover{
     text-decoration:underline rgb(41, 35, 208);
     transition: 0.5s;
    
