@@ -34,18 +34,14 @@ body{
     border: 5px solid rgb(41, 35, 208);
     font-size:30px;
     margin-left:60px;
-    margin-top:-200px;
+    margin-top:-125px;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0), 0px 0px 20px 0px rgb(0, 0, 0);
     text-align:justify;
     float:left;
     transition: ease-in-out 0.6s;
     font-weight:bold;
-    border-radius:0.5vh;
-    padding:30px;
-    padding-bottom:25px;
-    padding-top:25px;
-    padding-left:75px;
-    padding-right:75px;
+    border-radius:0.5vh;   
+    padding: 25px 75px;
 }
 .box2:hover{
     color:rgb(41, 35, 208);
@@ -71,14 +67,16 @@ body{
         padding-top:10px;
         margin-bottom: 5px;
         cursor:default;
-        
+        transition: 0.5s;
+        text-decoration:underline rgb(16, 17, 19, 0.987);    
     }
     
     h2,h3{
         color:white;
         font-size:50px;
         cursor:default;
-        
+        transition: 0.5s;
+        text-decoration:underline rgb(16, 17, 19, 0.987);    
        }   
 .alsoszegely {
     width:100%;
@@ -129,7 +127,7 @@ span{
 ul{
     float:left;
     color:white;
-    margin-top:50px;
+    margin-top:-25px;
     
 }
 li{
@@ -142,4 +140,9 @@ li{
     list-style-type:circle;
     
 
+}
+h1:hover,h2:hover,h3:hover,h4:hover{
+    text-decoration:underline rgb(41, 35, 208);
+    transition: 0.5s;
+   
 }
