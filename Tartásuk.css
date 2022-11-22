@@ -119,12 +119,11 @@ margin-bottom:-7px;
 
 }
 .forras{
-    letter-spacing: 1px;
-    margin-left:15px;
-    margin-bottom:-300px;
     clear:both;
-    padding-top:150px;
-    
+    letter-spacing: 0px;
+    margin-left:35px;
+    margin-bottom:-35px;
+    font-size:25px;
 }
 span{
     padding-left:250px;
