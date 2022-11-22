@@ -3,6 +3,11 @@ body{
     margin:0px;
     background-color:rgb(16, 17, 19, 0.987) ;
 }   
+p{
+    text-align:justify;
+    margin-left:100px;
+    margin-right:100px;
+}
 .box{
     color:rgb(255, 255, 255);
     background-color:rgb(41, 35, 208);
